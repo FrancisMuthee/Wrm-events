@@ -655,7 +655,10 @@
 
  
 
-  
+  .event{
+    background-color: #86c919;
+    font-weight: 900;
+  }
   
   
   
@@ -683,7 +686,7 @@ img {
 
 .newsletter h3{
   font-style: italic;
-  color: #dc3545;
+  color: #22223b;
 }
 
  
