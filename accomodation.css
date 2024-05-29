@@ -32,6 +32,63 @@ nav ul{
   float: right;
   margin-right: 20px;
 }
+
+.text-wrapper{
+  position: relative;
+  font-size: 100px;
+}
+
+/* -----vfgffh----- */
+.image-container {
+  position: relative;
+  width: 300px; /* Adjust the width as needed */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-wrapper {
+  display: flex;
+}
+
+.text-wrapper span {
+  position: relative;
+  display: inline-block;
+  letter-spacing: 5px;
+  animation: waveAnim 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes waveAnim {
+  0%, 40%, 100% {
+      transform: translateY(0);
+  }
+  20% {
+      transform: translateY(-20px);
+  }
+}
+
 nav ul li{
   display: inline-block;
   line-height: 80px;

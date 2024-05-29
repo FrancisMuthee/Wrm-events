@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Gochi+Hand&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@100;300&family=Sevillana&family=Sofia&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
@@ -22,6 +26,45 @@ nav{
   height: 90px;
   width: 100%;
 }
+
+
+
+.overlay {
+  position: relative;
+  /* width: 100%; */
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; /* Space between letters */
+  font-size: 30px; /* Adjust font size as needed */
+  font-weight: bold;
+  color: green;
+}
+
+.text-wrapper span {
+  position: relative;
+ 
+  display: inline-block;
+  animation: waveAnim 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes waveAnim {
+  0%, 40%, 100% {
+      transform: translateY(0);
+  }
+  20% {
+      transform: translateY(-20px);
+  }
+}
+
+
 /* label.logo{
   color: #fff;
   font-size: 20px;
@@ -213,6 +256,12 @@ i{
 .about h2{
   font-size: 28px;
   margin-bottom: 1rem;
+  font-family: "Sevillana", cursive;
+  font-style: normal;
+  color: green;
+  font-size: 70px;
+  text-decoration: none;
+  font-weight: 500;
 }
 .about p{
   display: block;
