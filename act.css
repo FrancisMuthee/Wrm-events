@@ -151,7 +151,9 @@ img{
   text-align: center;
   margin-bottom: 3rem;
   margin-top: 3rem;
-  font-size: 30px;
+  font-size: 45px;
+  text-transform: uppercase;
+  text-decoration:wavy;
 }
 .activity{
   font-size: 20px;
@@ -283,6 +285,7 @@ i{
   letter-spacing: 1.5px;
   font-size: 20px;
   font-weight: 700;
+  background-color: greenyellow;
 }
 .act-but:hover{
   text-decoration: none;
