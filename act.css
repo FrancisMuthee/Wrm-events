@@ -45,7 +45,7 @@ nav{
   display: flex;
   flex-direction: row;
   gap: 10px; /* Space between letters */
-  font-size: 30px; /* Adjust font size as needed */
+  font-size: 22px; /* Adjust font size as needed */
   font-weight: bold;
   color: green;
 }
@@ -154,7 +154,7 @@ img{
   text-align: center;
   margin-bottom: 3rem;
   margin-top: 3rem;
-  font-size: 45px;
+  font-size: 30px;
   text-transform: uppercase;
   text-decoration:wavy;
 }
